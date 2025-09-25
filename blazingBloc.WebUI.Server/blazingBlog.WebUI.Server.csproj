@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\blazingBlog.Application\blazingBlog.Application.csproj" />
+  </ItemGroup>
+
 </Project>
