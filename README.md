@@ -1,1 +1,1 @@
-# blazingBloc
+# blazingBlog
