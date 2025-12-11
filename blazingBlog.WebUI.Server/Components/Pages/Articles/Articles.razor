@@ -1,0 +1,19 @@
+﻿@page "/articles"
+@using blazingBlog.WebUI.Server.Components.Shared
+@attribute [StreamRendering]
+
+<PageTitle>Articles</PageTitle>
+
+<h3>Articles</h3>
+
+@if (articles.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var article in articles)
+    {
+        <ArticleCard Article="article" />
+    }
+}
